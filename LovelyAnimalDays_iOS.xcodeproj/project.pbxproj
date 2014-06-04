@@ -25,6 +25,7 @@
 		79655B94193F6E1F0014234A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B6F193F6E1F0014234A /* CoreData.framework */; };
 		79655B9C193F6E1F0014234A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79655B9A193F6E1F0014234A /* InfoPlist.strings */; };
 		79655B9E193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */; };
+		79655BA9193F6FE10014234A /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655BA8193F6FE10014234A /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		79655B99193F6E1F0014234A /* LovelyAnimalDays_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LovelyAnimalDays_iOSTests-Info.plist"; sourceTree = "<group>"; };
 		79655B9B193F6E1F0014234A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovelyAnimalDays_iOSTests.m; sourceTree = "<group>"; };
+		79655BA7193F6FE10014234A /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		79655BA8193F6FE10014234A /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 		79655B71193F6E1F0014234A /* LovelyAnimalDays_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				79655BA7193F6FE10014234A /* Animal.h */,
+				79655BA8193F6FE10014234A /* Animal.m */,
 				79655B7A193F6E1F0014234A /* AppDelegate.h */,
 				79655B7B193F6E1F0014234A /* AppDelegate.m */,
 				79655B7D193F6E1F0014234A /* Main.storyboard */,
@@ -266,6 +271,7 @@
 				79655B88193F6E1F0014234A /* DetailViewController.m in Sources */,
 				79655B85193F6E1F0014234A /* MasterViewController.m in Sources */,
 				79655B82193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld in Sources */,
+				79655BA9193F6FE10014234A /* Animal.m in Sources */,
 				79655B7C193F6E1F0014234A /* AppDelegate.m in Sources */,
 				79655B78193F6E1F0014234A /* main.m in Sources */,
 			);
