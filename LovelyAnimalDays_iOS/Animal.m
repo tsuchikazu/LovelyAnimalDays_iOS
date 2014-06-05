@@ -9,5 +9,16 @@
 #import "Animal.h"
 
 @implementation Animal
-
+-(id)initWithTitle:(NSString *)title url:(NSString *)url image_url:(NSString *)image_url date:(NSDate *)date
+{
+    self = [super init];
+    if (self) {
+        _title = title;
+        _url = url;
+        _image_url = image_url;
+        _date = date;
+        return self;
+    }
+    return nil;
+}
 @end

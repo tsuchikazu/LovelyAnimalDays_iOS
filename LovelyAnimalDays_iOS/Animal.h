@@ -10,4 +10,11 @@
 
 @interface Animal : NSObject
 
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *url;
+@property (nonatomic, copy) NSString *image_url;
+@property (nonatomic, strong) NSDate *date;
+
+-(id)initWithTitle:(NSString *)title url:(NSString *)url image_url:(NSString *)image_url
+             date:(NSDate *)date;
 @end
