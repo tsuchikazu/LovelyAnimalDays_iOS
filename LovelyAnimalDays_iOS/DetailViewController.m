@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "Animal.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -16,10 +17,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setAnimal:(id)animal
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (_animal != animal) {
+        _animal = animal;
         
         // Update the view.
         [self configureView];
@@ -30,8 +31,8 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+    if (_animal) {
+        self.detailDescriptionLabel.text = _animal.url;
     }
 }
 

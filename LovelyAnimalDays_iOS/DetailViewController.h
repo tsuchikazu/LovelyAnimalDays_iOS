@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Animal;
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Animal *animal;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

@@ -134,8 +134,8 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _animals[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+        Animal *animal = _animals[indexPath.row];
+        [[segue destinationViewController] setAnimal:animal];
 /*
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
