@@ -32,7 +32,13 @@
     // Update the user interface for the detail item.
 
     if (_animal) {
-        self.detailDescriptionLabel.text = _animal.url;
+        
+        [super viewDidLoad];
+        NSURL *url = [NSURL URLWithString:
+                      [_animal.url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]
+                      ];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [self.webView loadRequest:request];
     }
 }
 

@@ -29,7 +29,7 @@
 
     
     NSDate *today = [NSDate date];
-    Animal *animal = [[Animal alloc] initWithTitle:@"title" url:@"url" image_url:@"image_url" date:(NSDate *)today];
+    Animal *animal = [[Animal alloc] initWithTitle:@"title" url:@"http://yahoo.co.jp" image_url:@"image_url" date:(NSDate *)today];
     [_animals addObject:animal];
 /*
 
