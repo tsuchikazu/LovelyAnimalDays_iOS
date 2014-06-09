@@ -9,6 +9,7 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "Animal.h"
 
 @interface MasterViewController ()
 //- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -24,6 +25,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _animals = [[NSMutableArray alloc] init];
+
+    
+    NSDate *today = [NSDate date];
+    Animal *animal = [[Animal alloc] initWithTitle:@"title" url:@"url" image_url:@"image_url" date:(NSDate *)today];
+    [_animals addObject:animal];
 /*
 
 	// Do any additional setup after loading the view, typically from a nib.
@@ -83,8 +90,8 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AnimalCell" forIndexPath:indexPath];
     
-    NSDate *object = _animals[indexPath.row];
-    cell.textLabel.text = [object description];
+    Animal *animal = _animals[indexPath.row];
+    cell.textLabel.text = animal.title;
     return cell;
     /*
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
