@@ -88,10 +88,12 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AnimalCell" forIndexPath:indexPath];
+    AnimalImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AnimalCell" forIndexPath:indexPath];
     
     Animal *animal = _animals[indexPath.row];
-    cell.textLabel.text = animal.title;
+    cell.firstLabel.text = animal.title;
+    cell.secondLabel.text = animal.url;
+    
     return cell;
     /*
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];

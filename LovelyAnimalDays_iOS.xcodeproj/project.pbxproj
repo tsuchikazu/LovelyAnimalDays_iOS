@@ -26,6 +26,7 @@
 		79655B9C193F6E1F0014234A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79655B9A193F6E1F0014234A /* InfoPlist.strings */; };
 		79655B9E193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */; };
 		79655BA9193F6FE10014234A /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655BA8193F6FE10014234A /* Animal.m */; };
+		79FB07BB194748C000380D91 /* AnimalImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB07BA194748C000380D91 /* AnimalImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovelyAnimalDays_iOSTests.m; sourceTree = "<group>"; };
 		79655BA7193F6FE10014234A /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		79655BA8193F6FE10014234A /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		79FB07B9194748C000380D91 /* AnimalImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalImageCell.h; sourceTree = "<group>"; };
+		79FB07BA194748C000380D91 /* AnimalImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 		79655B71193F6E1F0014234A /* LovelyAnimalDays_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				79FB07B9194748C000380D91 /* AnimalImageCell.h */,
+				79FB07BA194748C000380D91 /* AnimalImageCell.m */,
 				79655BA7193F6FE10014234A /* Animal.h */,
 				79655BA8193F6FE10014234A /* Animal.m */,
 				79655B7A193F6E1F0014234A /* AppDelegate.h */,
@@ -270,6 +275,7 @@
 			files = (
 				79655B88193F6E1F0014234A /* DetailViewController.m in Sources */,
 				79655B85193F6E1F0014234A /* MasterViewController.m in Sources */,
+				79FB07BB194748C000380D91 /* AnimalImageCell.m in Sources */,
 				79655B82193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld in Sources */,
 				79655BA9193F6FE10014234A /* Animal.m in Sources */,
 				79655B7C193F6E1F0014234A /* AppDelegate.m in Sources */,
@@ -478,6 +484,7 @@
 				79655BA3193F6E1F0014234A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79655BA4193F6E1F0014234A /* Build configuration list for PBXNativeTarget "LovelyAnimalDays_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				79655BA6193F6E1F0014234A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
