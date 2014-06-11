@@ -10,7 +10,7 @@
 
 @implementation AnimalImageCell
 
-@synthesize firstLabel, secondLabel;
+@synthesize imageView;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

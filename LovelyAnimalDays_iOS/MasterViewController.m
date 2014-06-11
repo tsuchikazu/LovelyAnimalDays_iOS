@@ -29,7 +29,13 @@
 
     
     NSDate *today = [NSDate date];
-    Animal *animal = [[Animal alloc] initWithTitle:@"title" url:@"http://yahoo.co.jp" image_url:@"image_url" date:(NSDate *)today];
+    Animal *animal = [[Animal alloc] initWithTitle:@"title"
+                                               url:@"http://yahoo.co.jp"
+                                         image_url:@"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRS57uXEr3npz1Qj70ptBcQqe143mZn48NwCsTGbpyCV6Tln07FndyXk" date:(NSDate *)today];
+    [_animals addObject:animal];
+    [_animals addObject:animal];
+    [_animals addObject:animal];
+    [_animals addObject:animal];
     [_animals addObject:animal];
 /*
 
@@ -91,8 +97,11 @@
     AnimalImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AnimalCell" forIndexPath:indexPath];
     
     Animal *animal = _animals[indexPath.row];
-    cell.firstLabel.text = animal.title;
-    cell.secondLabel.text = animal.url;
+    
+    NSURL *url = [NSURL URLWithString:animal.image_url];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    UIImage *image = [UIImage imageWithData:data];
+    cell.imageView.image = image;
     
     return cell;
     /*

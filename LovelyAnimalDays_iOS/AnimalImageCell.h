@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AnimalImageCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UILabel *firstLabel;
-@property (nonatomic, weak) IBOutlet UILabel *secondLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 @end
