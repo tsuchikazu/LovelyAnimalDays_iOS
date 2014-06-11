@@ -30,8 +30,8 @@
     
     NSDate *today = [NSDate date];
     Animal *animal = [[Animal alloc] initWithTitle:@"title"
-                                               url:@"http://yahoo.co.jp"
-                                         image_url:@"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRS57uXEr3npz1Qj70ptBcQqe143mZn48NwCsTGbpyCV6Tln07FndyXk" date:(NSDate *)today];
+                                               url:@"http://ameblo.jp/twinleaves/entry-10216816341.html"
+                                         image_url:@"http://stat.ameba.jp/user_images/7e/d3/10147149070.jpg" date:(NSDate *)today];
     [_animals addObject:animal];
     [_animals addObject:animal];
     [_animals addObject:animal];
@@ -100,9 +100,25 @@
     
     NSURL *url = [NSURL URLWithString:animal.image_url];
     NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *image = [UIImage imageWithData:data];
-    cell.imageView.image = image;
+    UIImage *srcImage = [UIImage imageWithData:data];
     
+    int imageW = srcImage.size.width;
+    int imageH = srcImage.size.height;
+    
+    // 切り抜く位置を指定するCGRectを作成する。
+    // 今回は、画像の中心部分を320×160で切り取る例。
+    // なお簡略化のため、imageW,imageHともに320以上と仮定する。
+    int posX = (imageW - 320) / 2;
+    int posY = (imageH - 160) / 2;
+    CGRect trimArea = CGRectMake(posX, posY, 320, 160);
+    
+    // CoreGraphicsの機能を用いて、
+    // 切り抜いた画像を作成する。
+    CGImageRef srcImageRef = [srcImage CGImage];
+    CGImageRef trimmedImageRef = CGImageCreateWithImageInRect(srcImageRef, trimArea);
+    UIImage *trimmedImage = [UIImage imageWithCGImage:trimmedImageRef];
+    
+    cell.imageView.image = trimmedImage;
     return cell;
     /*
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
