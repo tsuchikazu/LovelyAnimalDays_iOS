@@ -33,10 +33,6 @@
                                                url:@"http://ameblo.jp/twinleaves/entry-10216816341.html"
                                          image_url:@"http://stat.ameba.jp/user_images/7e/d3/10147149070.jpg" date:(NSDate *)today];
     [_animals addObject:animal];
-    [_animals addObject:animal];
-    [_animals addObject:animal];
-    [_animals addObject:animal];
-    [_animals addObject:animal];
 /*
 
 	// Do any additional setup after loading the view, typically from a nib.
@@ -97,6 +93,8 @@
     AnimalImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AnimalCell" forIndexPath:indexPath];
     
     Animal *animal = _animals[indexPath.row];
+    
+    cell.titleLabel.text = animal.title;
     
     NSURL *url = [NSURL URLWithString:animal.image_url];
     NSData *data = [NSData dataWithContentsOfURL:url];

@@ -10,4 +10,5 @@
 
 @interface AnimalImageCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
 @end
