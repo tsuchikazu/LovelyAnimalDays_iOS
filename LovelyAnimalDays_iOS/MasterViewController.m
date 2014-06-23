@@ -10,6 +10,7 @@
 
 #import "DetailViewController.h"
 #import "Animal.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface MasterViewController ()
 //- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -32,6 +33,7 @@
     Animal *animal = [[Animal alloc] initWithTitle:@"title"
                                                url:@"http://ameblo.jp/twinleaves/entry-10216816341.html"
                                          image_url:@"http://stat.ameba.jp/user_images/7e/d3/10147149070.jpg" date:(NSDate *)today];
+    [_animals addObject:animal];
     [_animals addObject:animal];
 /*
 
@@ -96,9 +98,14 @@
     
     cell.titleLabel.text = animal.title;
     
-    NSURL *url = [NSURL URLWithString:animal.image_url];
+    // Here we use the new provided setImageWithURL: method to load the web image
+    [cell.imageView setImageWithURL:[NSURL URLWithString:animal.image_url]
+                   placeholderImage:[UIImage imageNamed:@"placeholder-150x150.png"]];
+     
+    /*
+     NSURL *url = [NSURL URLWithString:animal.image_url];
     NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *srcImage = [UIImage imageWithData:data];
+    UIImage *srcImage = [UIImage  imageNamed:@"placeholder-150x150.png"];
     
     int imageW = srcImage.size.width;
     int imageH = srcImage.size.height;
@@ -117,12 +124,9 @@
     UIImage *trimmedImage = [UIImage imageWithCGImage:trimmedImageRef];
     
     cell.imageView.image = trimmedImage;
-    return cell;
-    /*
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    [self configureCell:cell atIndexPath:indexPath];
-    return cell;
      */
+    
+    return cell;
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

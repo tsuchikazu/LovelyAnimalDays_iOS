@@ -1,1253 +1,561 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>115BAF984C8B4E75A0E6656F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LovelyAnimalDays_iOS.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6501FEB687F54FFE8D752E54</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>79655B5D193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B71193F6E1F0014234A</string>
-				<string>79655B97193F6E1F0014234A</string>
-				<string>79655B68193F6E1F0014234A</string>
-				<string>79655B67193F6E1F0014234A</string>
-				<string>ABA2D2D180A04FABABF660CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B5E193F6E1F0014234A</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>&#22303;&#23627; &#21644;&#33391;</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>79655B8E193F6E1F0014234A</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>79655B65193F6E1F0014234A</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>79655B61193F6E1F0014234A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>79655B5D193F6E1F0014234A</string>
-			<key>productRefGroup</key>
-			<string>79655B67193F6E1F0014234A</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>79655B65193F6E1F0014234A</string>
-				<string>79655B8E193F6E1F0014234A</string>
-			</array>
-		</dict>
-		<key>79655B61193F6E1F0014234A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>79655B9F193F6E1F0014234A</string>
-				<string>79655BA0193F6E1F0014234A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>79655B62193F6E1F0014234A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79655B88193F6E1F0014234A</string>
-				<string>79655B85193F6E1F0014234A</string>
-				<string>79FB07BB194748C000380D91</string>
-				<string>79655B82193F6E1F0014234A</string>
-				<string>79655BA9193F6FE10014234A</string>
-				<string>79655B7C193F6E1F0014234A</string>
-				<string>79655B78193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79655B63193F6E1F0014234A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79655B6C193F6E1F0014234A</string>
-				<string>79655B70193F6E1F0014234A</string>
-				<string>79655B6E193F6E1F0014234A</string>
-				<string>79655B6A193F6E1F0014234A</string>
-				<string>A05DE4360E734DB7922FEF01</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79655B64193F6E1F0014234A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79655B8A193F6E1F0014234A</string>
-				<string>79655B76193F6E1F0014234A</string>
-				<string>79655B7F193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79655B65193F6E1F0014234A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>79655BA1193F6E1F0014234A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6501FEB687F54FFE8D752E54</string>
-				<string>79655B62193F6E1F0014234A</string>
-				<string>79655B63193F6E1F0014234A</string>
-				<string>79655B64193F6E1F0014234A</string>
-				<string>B2B11531713A414E8874DB99</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LovelyAnimalDays_iOS</string>
-			<key>productName</key>
-			<string>LovelyAnimalDays_iOS</string>
-			<key>productReference</key>
-			<string>79655B66193F6E1F0014234A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>79655B66193F6E1F0014234A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOS.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>79655B67193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B66193F6E1F0014234A</string>
-				<string>79655B8F193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B68193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B69193F6E1F0014234A</string>
-				<string>79655B6B193F6E1F0014234A</string>
-				<string>79655B6D193F6E1F0014234A</string>
-				<string>79655B6F193F6E1F0014234A</string>
-				<string>79655B90193F6E1F0014234A</string>
-				<string>115BAF984C8B4E75A0E6656F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B69193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>79655B6A193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B69193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B6B193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>79655B6C193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B6B193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B6D193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>79655B6E193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B6D193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B6F193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>79655B70193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B6F193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B71193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79FB07B9194748C000380D91</string>
-				<string>79FB07BA194748C000380D91</string>
-				<string>79655BA7193F6FE10014234A</string>
-				<string>79655BA8193F6FE10014234A</string>
-				<string>79655B7A193F6E1F0014234A</string>
-				<string>79655B7B193F6E1F0014234A</string>
-				<string>79655B7D193F6E1F0014234A</string>
-				<string>79655B83193F6E1F0014234A</string>
-				<string>79655B84193F6E1F0014234A</string>
-				<string>79655B86193F6E1F0014234A</string>
-				<string>79655B87193F6E1F0014234A</string>
-				<string>79655B89193F6E1F0014234A</string>
-				<string>79655B80193F6E1F0014234A</string>
-				<string>79655B72193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B72193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B73193F6E1F0014234A</string>
-				<string>79655B74193F6E1F0014234A</string>
-				<string>79655B77193F6E1F0014234A</string>
-				<string>79655B79193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B73193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOS-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B74193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B75193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B75193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B76193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B74193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B77193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B78193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B77193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B79193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOS-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B7A193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B7B193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B7C193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B7B193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B7D193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B7E193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B7E193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B7F193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B7D193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B80193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B81193F6E1F0014234A</string>
-			</array>
-			<key>currentVersion</key>
-			<string>79655B81193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOS.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>79655B81193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOS.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B82193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B80193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B83193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MasterViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B84193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MasterViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B85193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B84193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B86193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B87193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B88193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B87193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B89193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B8A193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B89193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B8B193F6E1F0014234A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79655B9E193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79655B8C193F6E1F0014234A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79655B91193F6E1F0014234A</string>
-				<string>79655B94193F6E1F0014234A</string>
-				<string>79655B93193F6E1F0014234A</string>
-				<string>79655B92193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79655B8D193F6E1F0014234A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79655B9C193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79655B8E193F6E1F0014234A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>79655BA4193F6E1F0014234A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>79655B8B193F6E1F0014234A</string>
-				<string>79655B8C193F6E1F0014234A</string>
-				<string>79655B8D193F6E1F0014234A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>79655B96193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LovelyAnimalDays_iOSTests</string>
-			<key>productName</key>
-			<string>LovelyAnimalDays_iOSTests</string>
-			<key>productReference</key>
-			<string>79655B8F193F6E1F0014234A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>79655B8F193F6E1F0014234A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOSTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>79655B90193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>79655B91193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B90193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B92193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B69193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B93193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B6D193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B94193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B6F193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B95193F6E1F0014234A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>79655B5E193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>79655B65193F6E1F0014234A</string>
-			<key>remoteInfo</key>
-			<string>LovelyAnimalDays_iOS</string>
-		</dict>
-		<key>79655B96193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>79655B65193F6E1F0014234A</string>
-			<key>targetProxy</key>
-			<string>79655B95193F6E1F0014234A</string>
-		</dict>
-		<key>79655B97193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B9D193F6E1F0014234A</string>
-				<string>79655B98193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOSTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B98193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B99193F6E1F0014234A</string>
-				<string>79655B9A193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B99193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOSTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B9A193F6E1F0014234A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79655B9B193F6E1F0014234A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B9B193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B9C193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B9A193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B9D193F6E1F0014234A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LovelyAnimalDays_iOSTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655B9E193F6E1F0014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655B9D193F6E1F0014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79655B9F193F6E1F0014234A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>79655BA0193F6E1F0014234A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>79655BA1193F6E1F0014234A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>79655BA2193F6E1F0014234A</string>
-				<string>79655BA3193F6E1F0014234A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>79655BA2193F6E1F0014234A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ABA2D2D180A04FABABF660CB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>79655BA3193F6E1F0014234A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ABA2D2D180A04FABABF660CB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>79655BA4193F6E1F0014234A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>79655BA5193F6E1F0014234A</string>
-				<string>79655BA6193F6E1F0014234A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>79655BA5193F6E1F0014234A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/LovelyAnimalDays_iOS.app/LovelyAnimalDays_iOS</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>LovelyAnimalDays_iOSTests/LovelyAnimalDays_iOSTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>79655BA6193F6E1F0014234A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/LovelyAnimalDays_iOS.app/LovelyAnimalDays_iOS</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LovelyAnimalDays_iOSTests/LovelyAnimalDays_iOSTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>79655BA7193F6FE10014234A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Animal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655BA8193F6FE10014234A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Animal.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79655BA9193F6FE10014234A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79655BA8193F6FE10014234A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79FB07B9194748C000380D91</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AnimalImageCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79FB07BA194748C000380D91</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AnimalImageCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79FB07BB194748C000380D91</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79FB07BA194748C000380D91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A05DE4360E734DB7922FEF01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>115BAF984C8B4E75A0E6656F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABA2D2D180A04FABABF660CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-LovelyAnimalDays_iOS.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-LovelyAnimalDays_iOS.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2B11531713A414E8874DB99</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-LovelyAnimalDays_iOS-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>79655B5E193F6E1F0014234A</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79409CF119588CF100BAAB26 /* placeholder-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 79409CF019588CF100BAAB26 /* placeholder-150x150.png */; };
+		79655B6A193F6E1F0014234A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B69193F6E1F0014234A /* Foundation.framework */; };
+		79655B6C193F6E1F0014234A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B6B193F6E1F0014234A /* CoreGraphics.framework */; };
+		79655B6E193F6E1F0014234A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B6D193F6E1F0014234A /* UIKit.framework */; };
+		79655B70193F6E1F0014234A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B6F193F6E1F0014234A /* CoreData.framework */; };
+		79655B76193F6E1F0014234A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79655B74193F6E1F0014234A /* InfoPlist.strings */; };
+		79655B78193F6E1F0014234A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B77193F6E1F0014234A /* main.m */; };
+		79655B7C193F6E1F0014234A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B7B193F6E1F0014234A /* AppDelegate.m */; };
+		79655B7F193F6E1F0014234A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79655B7D193F6E1F0014234A /* Main.storyboard */; };
+		79655B82193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79655B80193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld */; };
+		79655B85193F6E1F0014234A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B84193F6E1F0014234A /* MasterViewController.m */; };
+		79655B88193F6E1F0014234A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B87193F6E1F0014234A /* DetailViewController.m */; };
+		79655B8A193F6E1F0014234A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79655B89193F6E1F0014234A /* Images.xcassets */; };
+		79655B91193F6E1F0014234A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B90193F6E1F0014234A /* XCTest.framework */; };
+		79655B92193F6E1F0014234A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B69193F6E1F0014234A /* Foundation.framework */; };
+		79655B93193F6E1F0014234A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B6D193F6E1F0014234A /* UIKit.framework */; };
+		79655B94193F6E1F0014234A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79655B6F193F6E1F0014234A /* CoreData.framework */; };
+		79655B9C193F6E1F0014234A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79655B9A193F6E1F0014234A /* InfoPlist.strings */; };
+		79655B9E193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */; };
+		79655BA9193F6FE10014234A /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 79655BA8193F6FE10014234A /* Animal.m */; };
+		79FB07BB194748C000380D91 /* AnimalImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB07BA194748C000380D91 /* AnimalImageCell.m */; };
+		A05DE4360E734DB7922FEF01 /* libPods-LovelyAnimalDays_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115BAF984C8B4E75A0E6656F /* libPods-LovelyAnimalDays_iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79655B95193F6E1F0014234A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79655B5E193F6E1F0014234A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79655B65193F6E1F0014234A;
+			remoteInfo = LovelyAnimalDays_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		115BAF984C8B4E75A0E6656F /* libPods-LovelyAnimalDays_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LovelyAnimalDays_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79409CF019588CF100BAAB26 /* placeholder-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-150x150.png"; sourceTree = "<group>"; };
+		79655B66193F6E1F0014234A /* LovelyAnimalDays_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovelyAnimalDays_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79655B69193F6E1F0014234A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79655B6B193F6E1F0014234A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79655B6D193F6E1F0014234A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79655B6F193F6E1F0014234A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79655B73193F6E1F0014234A /* LovelyAnimalDays_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LovelyAnimalDays_iOS-Info.plist"; sourceTree = "<group>"; };
+		79655B75193F6E1F0014234A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79655B77193F6E1F0014234A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79655B79193F6E1F0014234A /* LovelyAnimalDays_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LovelyAnimalDays_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		79655B7A193F6E1F0014234A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79655B7B193F6E1F0014234A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79655B7E193F6E1F0014234A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79655B81193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LovelyAnimalDays_iOS.xcdatamodel; sourceTree = "<group>"; };
+		79655B83193F6E1F0014234A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		79655B84193F6E1F0014234A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		79655B86193F6E1F0014234A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		79655B87193F6E1F0014234A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		79655B89193F6E1F0014234A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79655B8F193F6E1F0014234A /* LovelyAnimalDays_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovelyAnimalDays_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79655B90193F6E1F0014234A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79655B99193F6E1F0014234A /* LovelyAnimalDays_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LovelyAnimalDays_iOSTests-Info.plist"; sourceTree = "<group>"; };
+		79655B9B193F6E1F0014234A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovelyAnimalDays_iOSTests.m; sourceTree = "<group>"; };
+		79655BA7193F6FE10014234A /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		79655BA8193F6FE10014234A /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		79FB07B9194748C000380D91 /* AnimalImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalImageCell.h; sourceTree = "<group>"; };
+		79FB07BA194748C000380D91 /* AnimalImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalImageCell.m; sourceTree = "<group>"; };
+		ABA2D2D180A04FABABF660CB /* Pods-LovelyAnimalDays_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovelyAnimalDays_iOS.xcconfig"; path = "Pods/Pods-LovelyAnimalDays_iOS.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79655B63193F6E1F0014234A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79655B6C193F6E1F0014234A /* CoreGraphics.framework in Frameworks */,
+				79655B70193F6E1F0014234A /* CoreData.framework in Frameworks */,
+				79655B6E193F6E1F0014234A /* UIKit.framework in Frameworks */,
+				79655B6A193F6E1F0014234A /* Foundation.framework in Frameworks */,
+				A05DE4360E734DB7922FEF01 /* libPods-LovelyAnimalDays_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79655B8C193F6E1F0014234A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79655B91193F6E1F0014234A /* XCTest.framework in Frameworks */,
+				79655B94193F6E1F0014234A /* CoreData.framework in Frameworks */,
+				79655B93193F6E1F0014234A /* UIKit.framework in Frameworks */,
+				79655B92193F6E1F0014234A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79655B5D193F6E1F0014234A = {
+			isa = PBXGroup;
+			children = (
+				79655B71193F6E1F0014234A /* LovelyAnimalDays_iOS */,
+				79655B97193F6E1F0014234A /* LovelyAnimalDays_iOSTests */,
+				79655B68193F6E1F0014234A /* Frameworks */,
+				79655B67193F6E1F0014234A /* Products */,
+				ABA2D2D180A04FABABF660CB /* Pods-LovelyAnimalDays_iOS.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		79655B67193F6E1F0014234A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79655B66193F6E1F0014234A /* LovelyAnimalDays_iOS.app */,
+				79655B8F193F6E1F0014234A /* LovelyAnimalDays_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79655B68193F6E1F0014234A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79655B69193F6E1F0014234A /* Foundation.framework */,
+				79655B6B193F6E1F0014234A /* CoreGraphics.framework */,
+				79655B6D193F6E1F0014234A /* UIKit.framework */,
+				79655B6F193F6E1F0014234A /* CoreData.framework */,
+				79655B90193F6E1F0014234A /* XCTest.framework */,
+				115BAF984C8B4E75A0E6656F /* libPods-LovelyAnimalDays_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79655B71193F6E1F0014234A /* LovelyAnimalDays_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79409CF019588CF100BAAB26 /* placeholder-150x150.png */,
+				79FB07B9194748C000380D91 /* AnimalImageCell.h */,
+				79FB07BA194748C000380D91 /* AnimalImageCell.m */,
+				79655BA7193F6FE10014234A /* Animal.h */,
+				79655BA8193F6FE10014234A /* Animal.m */,
+				79655B7A193F6E1F0014234A /* AppDelegate.h */,
+				79655B7B193F6E1F0014234A /* AppDelegate.m */,
+				79655B7D193F6E1F0014234A /* Main.storyboard */,
+				79655B83193F6E1F0014234A /* MasterViewController.h */,
+				79655B84193F6E1F0014234A /* MasterViewController.m */,
+				79655B86193F6E1F0014234A /* DetailViewController.h */,
+				79655B87193F6E1F0014234A /* DetailViewController.m */,
+				79655B89193F6E1F0014234A /* Images.xcassets */,
+				79655B80193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld */,
+				79655B72193F6E1F0014234A /* Supporting Files */,
+			);
+			path = LovelyAnimalDays_iOS;
+			sourceTree = "<group>";
+		};
+		79655B72193F6E1F0014234A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79655B73193F6E1F0014234A /* LovelyAnimalDays_iOS-Info.plist */,
+				79655B74193F6E1F0014234A /* InfoPlist.strings */,
+				79655B77193F6E1F0014234A /* main.m */,
+				79655B79193F6E1F0014234A /* LovelyAnimalDays_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79655B97193F6E1F0014234A /* LovelyAnimalDays_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				79655B9D193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m */,
+				79655B98193F6E1F0014234A /* Supporting Files */,
+			);
+			path = LovelyAnimalDays_iOSTests;
+			sourceTree = "<group>";
+		};
+		79655B98193F6E1F0014234A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79655B99193F6E1F0014234A /* LovelyAnimalDays_iOSTests-Info.plist */,
+				79655B9A193F6E1F0014234A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79655B65193F6E1F0014234A /* LovelyAnimalDays_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79655BA1193F6E1F0014234A /* Build configuration list for PBXNativeTarget "LovelyAnimalDays_iOS" */;
+			buildPhases = (
+				6501FEB687F54FFE8D752E54 /* Check Pods Manifest.lock */,
+				79655B62193F6E1F0014234A /* Sources */,
+				79655B63193F6E1F0014234A /* Frameworks */,
+				79655B64193F6E1F0014234A /* Resources */,
+				B2B11531713A414E8874DB99 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LovelyAnimalDays_iOS;
+			productName = LovelyAnimalDays_iOS;
+			productReference = 79655B66193F6E1F0014234A /* LovelyAnimalDays_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79655B8E193F6E1F0014234A /* LovelyAnimalDays_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79655BA4193F6E1F0014234A /* Build configuration list for PBXNativeTarget "LovelyAnimalDays_iOSTests" */;
+			buildPhases = (
+				79655B8B193F6E1F0014234A /* Sources */,
+				79655B8C193F6E1F0014234A /* Frameworks */,
+				79655B8D193F6E1F0014234A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79655B96193F6E1F0014234A /* PBXTargetDependency */,
+			);
+			name = LovelyAnimalDays_iOSTests;
+			productName = LovelyAnimalDays_iOSTests;
+			productReference = 79655B8F193F6E1F0014234A /* LovelyAnimalDays_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79655B5E193F6E1F0014234A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "土屋 和良";
+				TargetAttributes = {
+					79655B8E193F6E1F0014234A = {
+						TestTargetID = 79655B65193F6E1F0014234A;
+					};
+				};
+			};
+			buildConfigurationList = 79655B61193F6E1F0014234A /* Build configuration list for PBXProject "LovelyAnimalDays_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79655B5D193F6E1F0014234A;
+			productRefGroup = 79655B67193F6E1F0014234A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79655B65193F6E1F0014234A /* LovelyAnimalDays_iOS */,
+				79655B8E193F6E1F0014234A /* LovelyAnimalDays_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79655B64193F6E1F0014234A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79655B8A193F6E1F0014234A /* Images.xcassets in Resources */,
+				79655B76193F6E1F0014234A /* InfoPlist.strings in Resources */,
+				79409CF119588CF100BAAB26 /* placeholder-150x150.png in Resources */,
+				79655B7F193F6E1F0014234A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79655B8D193F6E1F0014234A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79655B9C193F6E1F0014234A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6501FEB687F54FFE8D752E54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B11531713A414E8874DB99 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LovelyAnimalDays_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79655B62193F6E1F0014234A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79655B88193F6E1F0014234A /* DetailViewController.m in Sources */,
+				79655B85193F6E1F0014234A /* MasterViewController.m in Sources */,
+				79FB07BB194748C000380D91 /* AnimalImageCell.m in Sources */,
+				79655B82193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld in Sources */,
+				79655BA9193F6FE10014234A /* Animal.m in Sources */,
+				79655B7C193F6E1F0014234A /* AppDelegate.m in Sources */,
+				79655B78193F6E1F0014234A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79655B8B193F6E1F0014234A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79655B9E193F6E1F0014234A /* LovelyAnimalDays_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79655B96193F6E1F0014234A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79655B65193F6E1F0014234A /* LovelyAnimalDays_iOS */;
+			targetProxy = 79655B95193F6E1F0014234A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79655B74193F6E1F0014234A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79655B75193F6E1F0014234A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79655B7D193F6E1F0014234A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79655B7E193F6E1F0014234A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79655B9A193F6E1F0014234A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79655B9B193F6E1F0014234A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79655B9F193F6E1F0014234A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79655BA0193F6E1F0014234A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79655BA2193F6E1F0014234A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA2D2D180A04FABABF660CB /* Pods-LovelyAnimalDays_iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch";
+				INFOPLIST_FILE = "LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79655BA3193F6E1F0014234A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA2D2D180A04FABABF660CB /* Pods-LovelyAnimalDays_iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch";
+				INFOPLIST_FILE = "LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79655BA5193F6E1F0014234A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LovelyAnimalDays_iOS.app/LovelyAnimalDays_iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LovelyAnimalDays_iOSTests/LovelyAnimalDays_iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79655BA6193F6E1F0014234A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LovelyAnimalDays_iOS.app/LovelyAnimalDays_iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LovelyAnimalDays_iOS/LovelyAnimalDays_iOS-Prefix.pch";
+				INFOPLIST_FILE = "LovelyAnimalDays_iOSTests/LovelyAnimalDays_iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79655B61193F6E1F0014234A /* Build configuration list for PBXProject "LovelyAnimalDays_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79655B9F193F6E1F0014234A /* Debug */,
+				79655BA0193F6E1F0014234A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79655BA1193F6E1F0014234A /* Build configuration list for PBXNativeTarget "LovelyAnimalDays_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79655BA2193F6E1F0014234A /* Debug */,
+				79655BA3193F6E1F0014234A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79655BA4193F6E1F0014234A /* Build configuration list for PBXNativeTarget "LovelyAnimalDays_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79655BA5193F6E1F0014234A /* Debug */,
+				79655BA6193F6E1F0014234A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79655B80193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79655B81193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodel */,
+			);
+			currentVersion = 79655B81193F6E1F0014234A /* LovelyAnimalDays_iOS.xcdatamodel */;
+			path = LovelyAnimalDays_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79655B5E193F6E1F0014234A /* Project object */;
+}
