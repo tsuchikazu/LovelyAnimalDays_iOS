@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26DF02EB-ACDA-44C2-80CC-2882CEB303E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LovelyAnimalDays_iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE1227D4-2F79-4D84-AFD9-84F263C4643D</key>
+		<string>ssh://github.com/tsuchikazu/LovelyAnimalDays_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LovelyAnimalDays_iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE1227D4-2F79-4D84-AFD9-84F263C4643D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tsuchikazu/LovelyAnimalDays_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE1227D4-2F79-4D84-AFD9-84F263C4643D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE1227D4-2F79-4D84-AFD9-84F263C4643D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LovelyAnimalDays_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
