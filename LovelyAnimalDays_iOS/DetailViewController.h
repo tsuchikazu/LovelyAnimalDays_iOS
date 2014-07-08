@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NJKWebViewProgressView.h"
+#import "NJKWebViewProgress.h"
 @class Animal;
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<UIWebViewDelegate, NJKWebViewProgressDelegate>
 
 @property (strong, nonatomic) Animal *animal;
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+
 @end
