@@ -1,12 +1,19 @@
 PODS:
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core
+    - NJKWebViewProgress/ProgressView
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
   - SDWebImage (3.6):
     - SDWebImage/Core
   - SDWebImage/Core (3.6)
 
 DEPENDENCIES:
+  - NJKWebViewProgress
   - SDWebImage (~> 3.6)
 
 SPEC CHECKSUMS:
+  NJKWebViewProgress: 721b57080c840c76f70ff6c2dda4f836ee1b27c1
   SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
 
 COCOAPODS: 0.33.1

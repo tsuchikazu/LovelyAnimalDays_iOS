@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-LovelyAnimalDays_iOS-NJKWebViewProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-LovelyAnimalDays_iOS-SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9CB0B0F3A9094001A4903912</key>
+		<key>5831007BCE664319B1697B0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD15F23CE94E4C18917B9991</key>
+		<key>A1224FC9570E44588E1274D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F907759289C943329AA0DEC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

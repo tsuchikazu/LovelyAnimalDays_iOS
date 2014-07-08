@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F907759289C943329AA0DEC7"
-               BuildableName = "libPods-LovelyAnimalDays_iOS.a"
-               BlueprintName = "Pods-LovelyAnimalDays_iOS"
+               BlueprintIdentifier = "5831007BCE664319B1697B0B"
+               BuildableName = "libPods-LovelyAnimalDays_iOS-NJKWebViewProgress.a"
+               BlueprintName = "Pods-LovelyAnimalDays_iOS-NJKWebViewProgress"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
